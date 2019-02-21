@@ -1,1 +1,1 @@
-package Utilities;public class CommitDetails{public String CommitId = "null";}
+package Utilities;public class CommitDetails{public String CommitId = "commit 6ca53294bb24b5948c838af8593a7735ffa712a0";}

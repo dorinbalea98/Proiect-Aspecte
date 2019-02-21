@@ -24,6 +24,7 @@ public class CommitDetailsHandler {
     private static void saveCommitId(String commitId) {
         StringBuilder sb = new StringBuilder("package Utilities;public class CommitDetails{public String CommitId = \"");
         sb.append(commitId);
+        System.out.println(commitId);
         sb.append("\";}");
 
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(GlobalConstants.PATHTOPROJ + "/Utilities/CommitDetails.java"))) {
